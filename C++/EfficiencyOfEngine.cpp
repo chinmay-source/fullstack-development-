@@ -23,40 +23,30 @@ public:
   float GetEfficiency ()
   {
 
-    return output / input;	//calculation of efficiency of engine 
+    return output / input;	//calculation of efficience of engine 
   }
 };
 
-class ExternalCombustineEngine:public Engine
+class PetrolEngine:public InternalCombustineEngine
 {
-public:
+
+};
+
+
+class DieselEngine : public InternalCombustineEngine
+  {
+  public:
   float GetEfficiency ()
   {
 
-    return output / input;
+    return output / input;	//calculation of efficience of engine 
   }
-};
-
-class PetrolEngine:public Engine
-{
-public:
-  float GetEfficiency ()
-  {
-
-    return output / input;
-  }
-};
-
-
-class DieselEngine : public Engine
-  {
-    public:
-          float GetEfficiency(){
-
-                    return output/input; 
-          }
   }; 
+  class ExternalCombustineEngine : public Engine
+  {
+      
   
+  };
   class SteamEngine : public Engine
   {
     public:
@@ -70,37 +60,13 @@ int main ()
 {
 
   int num;
-  cout << "Enter 1 for Internal Combustine Engine" << endl;
-  cout << "Enter 2 for External Combustine Engine" << endl;
-  cout << "Enter 3 for Petrol Engine" << endl;
-  cout << "Enter 4 for Diesel Engine" << endl;
-  cout << "Enter 5 for Steam Engine" << endl;
+  cout << "Enter 1 for Petrol Engine" << endl;
+  cout << "Enter 2 for Diesel Engine" << endl;
+  cout << "Enter 3 for Steam Engine" << endl;
   cin >> num;
   switch (num)
     {
     case 1:
-      {
-	InternalCombustineEngine in;
-	cout << "Enter the input for Internal Combustine Engine: " << endl;
-	in.getInput();
-	cout << "Enter the output for Internal Combustine Engine: " << endl;
-	in.getOutput();
-	cout << "Efficiency of Internal Combustine Engine is: " << 
-	in.GetEfficiency() <<endl;
-      }
-      break;
-    case 2:
-      {
-	ExternalCombustineEngine ex;
-	cout << "Enter the input for External Combustine Engine: " << endl;
-	ex.getInput ();
-	cout << "Enter the output for External Combustine Engine: " << endl;
-	ex.getOutput();
-	cout << "Efficiency of External Combustine Engine is: " << 
-	ex.GetEfficiency() << endl;
-      }
-      break;
-    case 3:
       {
 	PetrolEngine pt;
 	cout << "Enter the input for Petrol Engine: " << endl;
@@ -111,7 +77,7 @@ int main ()
 	pt.GetEfficiency() <<endl;
       }
       break;
-      case 4:
+      case 2:
       {
 	DieselEngine di;
 	cout << "Enter the input for Diesel Engine: " << endl;
@@ -122,7 +88,7 @@ int main ()
 	di.GetEfficiency () <<endl;
       }
       break;
-      case 5:
+      case 3:
       {
 	SteamEngine st;
 	cout << "Enter the input for Steam Engine: " << endl;
@@ -134,7 +100,8 @@ int main ()
       }
       break;
     default:
-      cout << "please choose between 1 to 5" << endl;
+      cout << "please choose between 1 to 3" << endl;
       break;
     }
 }
+
