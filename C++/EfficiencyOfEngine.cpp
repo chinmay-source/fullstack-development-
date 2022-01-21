@@ -35,25 +35,21 @@ class PetrolEngine:public InternalCombustineEngine
 
 class DieselEngine : public InternalCombustineEngine
   {
-  public:
+ 
+  }; 
+  class ExternalCombustineEngine : public Engine
+  {
+      public:
   float GetEfficiency ()
   {
 
     return output / input;	//calculation of efficience of engine 
   }
-  }; 
-  class ExternalCombustineEngine : public Engine
-  {
-      
   
   };
-  class SteamEngine : public Engine
+  class SteamEngine : public ExternalCombustineEngine
   {
-    public:
-          float GetEfficiency(){
-
-                    return output/input; 
-          }
+    
   }; 
 
 int main ()
@@ -104,4 +100,5 @@ int main ()
       break;
     }
 }
+
 
