@@ -43,7 +43,7 @@ class DieselEngine : public InternalCombustineEngine
   float GetEfficiency ()
   {
 
-    return output / input;	//calculation of efficience of engine 
+    return output / input;	//calculation of efficiency of engine 
   }
   
   };
