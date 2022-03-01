@@ -1,0 +1,15 @@
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\bin\Debug\netstandard2.0\SimpleInterestApp.deps.json
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\bin\Debug\netstandard2.0\SimpleInterestApp.dll
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\bin\Debug\netstandard2.0\ref\SimpleInterestApp.dll
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\bin\Debug\netstandard2.0\SimpleInterestApp.pdb
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.csproj.AssemblyReference.cache
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.AssemblyInfoInputs.cache
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.AssemblyInfo.cs
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.csproj.CoreCompileInputs.cache
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.dll
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\ref\SimpleInterestApp.dll
+C:\Users\CHINMAY KUMAR\source\repos\SimpleInterestApp\SimpleInterestApp\obj\Debug\netstandard2.0\SimpleInterestApp.pdb

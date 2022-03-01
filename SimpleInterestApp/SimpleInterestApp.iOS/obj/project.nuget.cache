@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NKArSK9xSUw+59kfz6IcY9SOvqeVf8r3AJVpM5W9/QVBmWCf5TSsIbFjhvu9AEhD32AeGE/zNQTuzNYp+r1yvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CHINMAY KUMAR\\source\\repos\\SimpleInterestApp\\SimpleInterestApp.iOS\\SimpleInterestApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CHINMAY KUMAR\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

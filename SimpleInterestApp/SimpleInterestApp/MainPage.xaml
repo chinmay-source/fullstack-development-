@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleInterestApp.MainPage"  BackgroundColor="Black" >
+
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Text="Intrest Calculator" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"  TextColor="Aqua"  
+                     ></Label>
+
+
+            <StackLayout Margin="10">
+                <Frame  CornerRadius="20" WidthRequest="230" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Aqua">
+                    <Entry x:Name="principleAmount" WidthRequest="200" Keyboard="Numeric" TextColor="Black" 
+                       VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+                       Placeholder="Principle Amount" PlaceholderColor="Black"
+                       HorizontalOptions="Center"  />
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="10">
+                <Frame CornerRadius="20"  WidthRequest="230" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Aqua">
+                    <Entry x:Name="months"  WidthRequest="200" Keyboard="Numeric" TextColor="Black" 
+                       VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+                       Placeholder="No. of months" PlaceholderColor="Black"
+                       HorizontalOptions="Center"  />
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="10">
+                <Frame CornerRadius="20" WidthRequest="230" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Aqua">
+                    <Entry x:Name="intrest" WidthRequest="200" Keyboard="Numeric" TextColor="Black" 
+                       VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+                       Placeholder="Intrest" PlaceholderColor="Black"
+                       HorizontalOptions="Center"  />
+                </Frame>
+            </StackLayout>
+
+            <Label Text="Total Amount"  TextColor="Aqua"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+
+            <Frame CornerRadius="20" WidthRequest="230" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Aqua">
+
+                <Label  x:Name="Atotal"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+                           FontSize="Medium" TextColor="Black"  />
+
+            </Frame>
+
+
+            <Button Text="Calculate"   CornerRadius="50" 
+                    BackgroundColor="Aqua" WidthRequest="150" HeightRequest="50" VerticalOptions="Center"  HorizontalOptions="Center"
+                        Clicked="Button_Clicked"/>
+
+
+
+        </StackLayout>
+
+
+
+
+    </ContentPage.Content>
+
+
+
+
+    
+</ContentPage>
